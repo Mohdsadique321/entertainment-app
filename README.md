@@ -38,36 +38,23 @@ This application was created using [create-t3-app](https://github.com/t3-oss/cre
 
 2. Clone your repository (do not forget to add `your account name`):
 ```bash
-$ git clone https://github.com/[YOUR ACCOUNT NAME]/movies-entertainment-app.git
-```
+$ git clone https://github.com/Mohdsadique321/entertainment-app.git 
 
-3. Go into the repository and install dependencies:
-```bash
+Go Into your Repo
 $ cd movies-entertainment-app
 
 $ npm install
-```
+Push current Prisma models to the database:
 
-4. Add all needed Environmental variables to `.env.` You can use `.env.example` as template.
-  
-  - [How to setup GitHub OAuth](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app)
-  - [How to setup Google OAuth](https://support.google.com/cloud/answer/6158849?hl=en)
-
-5. Push current Prisma models to the database:
-```bash
+Copy code
 $ npx prisma db push
-```
 
-6. Finally start the development server:
-```bash
+Finally, start the development server:
+
 $ npm run dev
-```
 
-7. Voila, you're ready to create something awesome!
-
-## 🛠️ Authors
-
-👩‍💻 Moh Salman [@farsi8273](https://github.com/farsi8273)
+Authors
+👩‍💻 Mohd Sadique (https://github.com/Mohdsadique321)
 
 
-
+This README provides a detailed overview of the app, its features, technologies used, and how to set it up locally.
